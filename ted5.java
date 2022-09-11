@@ -1,3 +1,4 @@
+//Grupo Victor Jairo e Nathan Serrão 
 public class ted5 {
     public static void main(String[] args) {
         int i = 0;
