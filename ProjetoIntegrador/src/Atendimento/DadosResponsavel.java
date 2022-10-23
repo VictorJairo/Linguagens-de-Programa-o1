@@ -9,7 +9,7 @@ public class DadosResponsavel {
     private String Cpf;
     private String Cidade;
 
-    public DadosResponsavel(String nome, String endereco, int telefoneFixo, int celular, int uf, String cpf, String cidade) {
+    public DadosResponsavel(String nome, String endereco, int telefoneFixo, int celular, int uf, int cpf, String cidade) {
         this.Nome = nome;
         this.Endereco = endereco;
         this.TelefoneFixo = telefoneFixo;
@@ -59,11 +59,11 @@ public class DadosResponsavel {
         Uf = uf;
     }
 
-    public String getCpf() {
+    public int getCpf() {
         return Cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(int cpf) {
         Cpf = cpf;
     }
 
