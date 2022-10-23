@@ -6,7 +6,7 @@ public class DadosResponsavel {
     private int TelefoneFixo;
     private int Celular;
     private int Uf;
-    private String Cpf;
+    private int Cpf;
     private String Cidade;
 
     public DadosResponsavel(String nome, String endereco, int telefoneFixo, int celular, int uf, int cpf, String cidade) {
